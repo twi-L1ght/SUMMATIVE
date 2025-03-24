@@ -1,0 +1,339 @@
+.logo{
+    width: 750px; 
+    margin-bottom: 20px;
+}
+
+.logo-box{
+    background-color: #af5656;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 1;
+    left: 1;
+}
+
+.center-content {
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.nav-bar {
+    background-color: #566eaf;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-links {
+    font-family: 'Trebuchet MS';
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    font-family: 'Trebuchet MS';
+    margin-right: 15px;
+    float: left;
+    left:-450px;
+
+}
+
+.nav-links a:hover {
+    color: #93c5fd;
+}
+
+.nav-links a:active {
+    color: rgb(213, 213, 149);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: white;
+    color: #1e3a8a;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 500px;
+    transition: background 0.3s;
+    font-family: 'Trebuchet MS';
+}
+
+.signup-btn {
+    /* background-color: white;
+    color: #1e3a8a;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 18px;
+    transition: background 0.3s;
+    font-family: 'Trebuchet MS'; */
+    white-space: nowrap; 
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px; 
+    font-size: 16px; 
+    background-color: white;
+    color: #1e3a8a; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-family: 'Trebuchet MS';
+    margin-left: 18px;
+}
+
+.login-btn:hover {
+    background-color: #e0e7ff;
+}
+
+.signup-btn:hover {
+    background-color: #e0e7ff;
+}
+
+.welcome-message {
+    font-family: 'Trebuchet MS';
+    font-size: 150%;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.box1 {
+    background-color: #d9d2ae;
+    height: 350px;
+    padding: 30px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 3%;
+}
+
+.book1{
+    transform: translateY(-5%); 
+    transition: transform 0.2s ease;
+}
+
+.book1:hover{
+    transform: scale(1.1);
+}
+
+.book5{
+    transition: transform 0.2s ease;
+}
+
+.book5:hover{
+    transform: scale(1.1);
+}
+
+.book3{
+    transform: translateY(-5%);
+    transition: transform 0.2s ease;
+}
+
+.book3:hover{
+    transform: scale(1.1);
+}
+
+.left-arrow{
+    transform: translateX(-10%);
+    transform: translateY(-270%);
+    height: 50px;
+    width: 50px;
+}
+
+.left-arrow:hover{
+    background-color: rgb(225, 224, 224);
+}
+
+.right-arrow{
+    transform: translateX(-300%);
+    transform: translateY(-270%);
+    height: 50px;
+    width: 50px;
+}
+
+.right-arrow:hover{
+    background-color: rgb(225, 224, 224);
+}
+
+.review-logo img{
+    transform: translateX(-30%);
+    size: 10px;
+}
+
+.signup-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(25%);
+
+}
+input {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Trebuchet MS';
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.separator {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #777;
+    font-family: 'Trebuchet MS';
+}
+.google-signup {
+    background-color: white;
+    color: #333;
+    border: 1px solid #ccc;
+}
+.google-signup:hover {
+    background-color: #f1f1f1;
+}
+
+.review-card {
+    display: flex;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+    transform: translateY(25%);
+    margin-left: 15%;
+}
+
+.image-section {
+    flex: 1;
+    max-width: 250px;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content-section {
+    flex: 2;
+    padding: 20px;
+    position: relative;
+}
+
+.content-section h2 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.rating {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #38a169;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.content-section p {
+    margin: 20px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.card-footer .comments, .card-footer .author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card-footer .read-more {
+    background-color: #1e3a8a;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.card-footer .read-more:hover {
+    background-color: #3b82f6;
+}
+
+.google-icon {
+    height: 15px;
+    transform: translateX(-180%);
+    position: absolute;
+}
+
+.book1 img:hover{
+    color: white;
+    border-color: #af5656;
+}
